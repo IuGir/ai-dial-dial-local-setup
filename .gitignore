@@ -1,1 +1,31 @@
+# DIAL secrets (see README - use keys.json for API keys)
 core/keys.json
+
+# Core runtime data (created when running docker compose)
+core-data/
+core-logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+.env.local
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
